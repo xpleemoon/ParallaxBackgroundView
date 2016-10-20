@@ -49,7 +49,9 @@ or use maven
 ```
 
 
-## How do I use Glide?
+## How do I use ParallaxBackgroundView?
+
+Parallax effect using 2 layers: One for the content（ ScrollView、ListView or RecyclerView etc） and another one for the background（ParallaxBackgroundView）.
 
 Simple use cases will look like the following two ways: via xml attribute or via java code
 
