@@ -23,6 +23,11 @@ Notice, there are 2 modes are used for scaling：
   - MODE_PRE_SCALE:uses more memory but scrolls slightly smoother
   - MODE_POST_SCALE:uses less memory but is more CPU-intensive
 
+## Screenshots
+
+![horizontal_parallax_bg](https://github.com/xpleemoon/ParallaxBackgroundView/blob/master/art/horizontal_parallax_bg.gif?raw=true)
+![vertical_parallax_bg](https://github.com/xpleemoon/ParallaxBackgroundView/blob/master/art/vertical_parallax_bg.gif?raw=true)
+
 ## How do I use Glide?
 
 Simple use cases will look like the following two ways: via xml attribute or via java code
