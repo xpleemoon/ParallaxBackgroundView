@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ParallaxBackgroundView">
+        <!--activate or not-->
+        <attr name="isParallax" format="boolean" />
+        <attr name="parallaxMode">
+            <!--uses more memory but scrolls slightly smoother-->
+            <enum name="preScale" value="0" />
+            <!--uses less memory but is more CPU-intensive-->
+            <enum name="postScale" value="1" />
+        </attr>
+        <attr name="parallaxOrientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="parallaxBackground" format="reference"/>
+    </declare-styleable>
+</resources>
