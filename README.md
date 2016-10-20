@@ -28,6 +28,27 @@ Notice, there are 2 modes are used for scaling：
 ![horizontal_parallax_bg](https://github.com/xpleemoon/ParallaxBackgroundView/blob/master/art/horizontal_parallax_bg.gif?raw=true)
 ![vertical_parallax_bg](https://github.com/xpleemoon/ParallaxBackgroundView/blob/master/art/vertical_parallax_bg.gif?raw=true)
 
+## Download
+
+***The lib will be available soon on Maven Central.***
+
+use gradle:
+
+```
+compile 'com.xpleemoon.view:parallaxbackgroundview:1.0.0'
+```
+or use maven
+
+```
+<dependency>
+  <groupId>com.xpleemoon.view</groupId>
+  <artifactId>parallaxbackgroundview</artifactId>
+  <version>1.0.0</version>
+  <type>pom</type>
+</dependency>
+```
+
+
 ## How do I use Glide?
 
 Simple use cases will look like the following two ways: via xml attribute or via java code
