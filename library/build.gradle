@@ -29,7 +29,7 @@ publish {
     userOrg = 'xpleemoon'
     groupId = 'com.xpleemoon.view'
     artifactId = 'parallaxbackgroundview'
-    publishVersion = '1.0.0'
+    publishVersion = '1.0.1'
     desc = 'A parallax background view that is support horizontal or vertical'
     website = 'https://github.com/xpleemoon/ParallaxBackgroundView'
 }

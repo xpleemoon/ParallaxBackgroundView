@@ -19,9 +19,16 @@ Parallax offset is set via
 	setParallaxPercent(float)
 ```
 
-Notice, there are 2 modes are used for scaling：
-  - MODE_PRE_SCALE:uses more memory but scrolls slightly smoother
-  - MODE_POST_SCALE:uses less memory but is more CPU-intensive
+**Notice**, there are 2 modes are used for scaling：
+
+  - MODE_PRE_SCALE: uses more memory but scrolls slightly smoother
+  - MODE_POST_SCALE: uses less memory but is more CPU-intensive
+
+**Default attribute**：
+
+  - **isParallax**——true
+  - **parallaxMode**——postScale
+  - **parallaxOrientation**——horizontal
 
 ## Screenshots
 
@@ -30,12 +37,10 @@ Notice, there are 2 modes are used for scaling：
 
 ## Download
 
-***The lib will be available soon on Maven Central.***
-
 use gradle:
 
 ```
-compile 'com.xpleemoon.view:parallaxbackgroundview:1.0.0'
+compile 'com.xpleemoon.view:parallaxbackgroundview:1.0.1'
 ```
 or use maven
 
@@ -43,7 +48,7 @@ or use maven
 <dependency>
   <groupId>com.xpleemoon.view</groupId>
   <artifactId>parallaxbackgroundview</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <type>pom</type>
 </dependency>
 ```
